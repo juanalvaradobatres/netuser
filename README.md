@@ -1,7 +1,7 @@
 # netuser
 This will run the net user command and return the results in easygui.msgbox 
 
-#Background
+# Background
 I understand that this is not the cleanest code, this is not the nicest presentation, and I am probably not following best practices. I am in the process of learning Python again, and I wanted to create something that would be useful to me now.
 
 This program makes use of easygui.enterbox to capture the input for the username, runs the command, then formats and outputs the entirety of the results to an easygui.msgbox
