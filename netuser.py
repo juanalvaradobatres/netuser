@@ -37,6 +37,7 @@ def userinfo(emplidCapture):
         strResults += "\n"
     
     return(strResults)
-
+#create a better title for the results screen
+msgTitle = str(emplidCapture) + "'s account information"
 #now put the results of userinfo into a textbox
-g.msgbox(msg=userinfo(emplidCapture), title="Account User Information in Domain", ok_button="OK")
+g.msgbox(msg=userinfo(emplidCapture), title=msgTitle, ok_button="OK")
